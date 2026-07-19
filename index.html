@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Lo-Fi Driving</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* Beautiful sunset/dusk CSS gradient background */
+            background: linear-gradient(to bottom, #1a0b2e 0%, #ff8866 100%);
+        }
+        canvas {
+            display: block;
+        }
+        #fade-overlay {
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: #1a0b2e; 
+            opacity: 0; 
+            pointer-events: none; 
+            transition: opacity 0.5s; 
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fade overlay for respawning mechanics -->
+    <div id="fade-overlay"></div>
+    
+    <!-- Import Maps for Three.js -->
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+    
+    <!-- Load Game Logic from External JS -->
+    <script type="module" src="game.js"></script>
+</body>
+</html>
