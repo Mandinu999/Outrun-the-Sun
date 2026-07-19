@@ -1,8 +1,8 @@
-# Calm Web Journey 🌲🚐
+# Calm Web Journey 
 
 A relaxing, endless driving experience built entirely with [Three.js](https://threejs.org/). Take a peaceful trip down a procedurally generated infinite road, surrounded by beautiful low-poly scenery.
 
-## Features ✨
+## Features 
 
 *   **Endless Procedural World**: Drive forward infinitely as the world (road, trees, mountains, clouds) generates and loops seamlessly around you like a treadmill.
 *   **Dynamic Day/Night Cycle**: A complete cycle featuring a glowing sun, a moon, and a starry night sky. 
@@ -11,7 +11,7 @@ A relaxing, endless driving experience built entirely with [Three.js](https://th
 *   **Relaxing Van Model**: A custom, low-poly stylized van built entirely out of Three.js primitives.
 *   **Highly Optimized**: Features InstancedMeshes, static matrix caching, and optimized polygon counts to ensure a silky-smooth framerate.
 
-## How to Play 🎮
+## How to Play 
 
 Use your keyboard to drive the van:
 *   **W / Up Arrow**: Accelerate
@@ -21,13 +21,13 @@ Use your keyboard to drive the van:
 
 *Note: The steering is designed to keep you on the endless road. You cannot turn around completely!*
 
-## Technologies Used 🛠️
+## Technologies Used 
 
 *   HTML5
 *   JavaScript
 *   Three.js (WebGL)
 
-## Setup & Running Locally 💻
+## Setup & Running Locally 
 
 Since this is a client-side Three.js application, you can simply run it by serving the directory with any local web server.
 
